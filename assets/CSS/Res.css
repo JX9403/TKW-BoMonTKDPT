@@ -15,10 +15,10 @@
   .header-noti {
     margin-right: 10px;
   }
-
   .searchFour-box{
-    min-height: 250px;
+    min-height: 335px;
   }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -62,9 +62,9 @@
     margin-top: 20px;
   }
 
-
-  
-
+  .acc-box {
+    top: 82px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -76,10 +76,13 @@
     font-size: 20px;
   }
 
+  .header-menu-list {
+    top: 68px;
+  }
   .header-search {
     width: 300px;
   }
-
+ 
 }
 
 @media screen and (max-width: 576px) {
@@ -104,18 +107,15 @@
   .header-noti-list {
     right: 0;
   }
-
-  .acc-box {
-    right: 0;
-  }
-
-  .header-khoa-wrap{
+  .header-khoa-wrap {
     padding: 30px 50px;
   }
 
-  .header-khoa-wrap a{
+  .header-khoa-wrap a {
     font-size: 1.4rem;
   }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -129,25 +129,37 @@
 
   .header-menu-list {
     width: 320px;
-    right: -180px;
+    right: -170px;
+    top:70px;
   }
 
   .btn-c {
     margin: 8px;
   }
-
   .header-noti-list {
     width: 320px;
-    right: -98px;
+    right: -84px;
+  }
+  .searchFour-box{
+    min-height: 250px;
   }
 
-
-  .btn-c {
-    margin: 8px;
-  }
- 
   .searchFour-box-title{
     font-size: 1.4rem;
   }
   
+  /* popup */
+
+  .popup {
+    bottom: 14px;
+    width: 80%;
+    left: 70px;
+    height: 80px;
+  }
+  .popup h2 {
+    font-size: 1.8rem;
+  }
+  .popup i {
+    font-size: 2rem;
+  }
 }
